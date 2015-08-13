@@ -10,6 +10,7 @@ public var cherry: GameObject;
 public var gameover: GameObject;
 
 function Start(){
+	ScriptContador.tiempoActual = 3;
 }
 
 function checkTouch(pos){

@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SCRIPTS\nombreScript.js" />
+     <Compile Include="Assets\SCRIPTS\Common\timeCounter.js" />
+     <Compile Include="Assets\SCRIPTS\Common\waypoint_script.js" />
+     <Compile Include="Assets\SCRIPTS\ShakeToApple\masterScript.js" />
      <Compile Include="Assets\contador.js" />
      <Compile Include="Assets\gemaScript.js" />
  <Reference Include="UnityEngine.UI">

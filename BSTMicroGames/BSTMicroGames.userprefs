@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\gemaScript.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\ShakeToApple\masterScript.js">
     <Files>
-      <File FileName="Assets\gemaScript.js" Line="12" Column="18" />
-      <File FileName="Assets\contador.js" Line="4" Column="7" />
+      <File FileName="Assets\SCRIPTS\ShakeToApple\masterScript.js" Line="26" Column="36" />
+      <File FileName="Assets\SCRIPTS\Common\timeCounter.js" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

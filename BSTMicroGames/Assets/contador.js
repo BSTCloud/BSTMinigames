@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 public var ScriptGema: gemaScript;
-static var tiempoActual: int = 5;
+static var tiempoActual: int;
 static var execution: boolean;
 
 public var tiempo0: Sprite;
