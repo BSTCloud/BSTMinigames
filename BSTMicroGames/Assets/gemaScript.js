@@ -13,7 +13,7 @@ function Start(){
 	ScriptContador.tiempoActual = 3;
 }
 
-function checkTouch(pos){
+function checkTouch(pos: Vector3){
 	var wp : Vector3 = Camera.main.ScreenToWorldPoint(pos);
 	var touchPos : Vector2 = new Vector2(wp.x, wp.y); 
 	var hit = Physics2D.OverlapPoint(touchPos);  

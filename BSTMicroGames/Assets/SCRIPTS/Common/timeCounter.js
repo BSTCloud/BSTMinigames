@@ -22,7 +22,7 @@ function Start () {
 
 function Update () {
 	if(execution){
-		Debug.Log(actualTime);
+		//Debug.Log(actualTime);
 		if(actualTime > 0){
 			if(startTime < Time.timeSinceLevelLoad){
 				startTime += 0.1;

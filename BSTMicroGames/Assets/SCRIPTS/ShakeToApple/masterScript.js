@@ -5,14 +5,23 @@ public var apples1: GameObject;
 public var apples2: GameObject;
 public var apples3: GameObject;
 public var apples4: GameObject;
+public var gameDude: GameObject;
 
 public var appleNumber: int;
 public var appleNumber2: int;
 public var appleNumber3: int;
 public var applesArray: GameObject[]= new GameObject[4];
 
+public var numApples: int;
+static var numCollidedApples: int;
+private var platform: RuntimePlatform = Application.platform;
+
+public var spriteWin: Sprite;
+public var spriteLose: Sprite;
+
 function Start () {
-	Random.seed = System.Environment.TickCount;
+	numApples = 12;
+	numCollidedApples = 0;
 	
 	timeScript.actualTime = 6;
 	applesArray[0] = apples1;
@@ -38,6 +47,36 @@ function Start () {
 	}
 }
 
-function Update () {
+function checkTouch(pos: Vector3){
+	var wp : Vector3 = Camera.main.ScreenToWorldPoint(pos);
+	var touchPos : Vector2 = new Vector2(wp.x, wp.y); 
+	var hit = Physics2D.OverlapPoint(touchPos);  
+	if(hit)  
+		if(hit.gameObject.tag == "STA_apple" && hit.gameObject.GetComponent(CircleCollider2D).isTrigger == true){ 
+			--numApples;
+			hit.gameObject.GetComponent(CircleCollider2D).isTrigger = false;
+			hit.gameObject.GetComponent(Rigidbody2D).isKinematic = false;
+		}
+}
 
+function Update () {
+	if(timeScript.execution == false){
+		if(numApples == 0 && numCollidedApples == 12){
+			gameDude.GetComponent(SpriteRenderer).sprite = spriteWin;
+		}
+		if(numApples != 0){
+			gameDude.GetComponent(SpriteRenderer).sprite = spriteLose;
+		}
+	}
+	else{
+		if(numApples == 0){
+			timeScript.execution = false;
+			//has ganado
+		}
+		if(platform == RuntimePlatform.WindowsPlayer || platform == RuntimePlatform.WindowsEditor){
+	  		if(Input.GetMouseButtonDown(0)){   
+	   			checkTouch(Input.mousePosition);
+	  		}
+	  	}
+  	}
 }
