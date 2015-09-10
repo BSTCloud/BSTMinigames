@@ -46,12 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SCRIPTS\Common\classMinigame.js" />
      <Compile Include="Assets\SCRIPTS\Common\timeCounter.js" />
      <Compile Include="Assets\SCRIPTS\Common\waypoint_script.js" />
      <Compile Include="Assets\SCRIPTS\ShakeToApple\appleBoxCollider.js" />
-     <Compile Include="Assets\SCRIPTS\ShakeToApple\masterScript.js" />
-     <Compile Include="Assets\contador.js" />
-     <Compile Include="Assets\gemaScript.js" />
+     <Compile Include="Assets\SCRIPTS\ShakeToApple\classShakeToApple.js" />
+     <Compile Include="Assets\SCRIPTS\ShakeToApple\masterShakeToApple.js" />
+     <Compile Include="Assets\SCRIPTS\TapToFrisbee\TTF_invisibleScript.js" />
+     <Compile Include="Assets\SCRIPTS\TapToFrisbee\masterScript.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

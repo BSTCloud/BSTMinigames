@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\ShakeToApple\appleBoxCollider.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\TapToFrisbee\masterScript.js">
     <Files>
-      <File FileName="Assets\SCRIPTS\ShakeToApple\masterScript.js" Line="74" Column="16" />
-      <File FileName="Assets\SCRIPTS\Common\timeCounter.js" Line="25" Column="5" />
-      <File FileName="Assets\gemaScript.js" Line="3" Column="1" />
-      <File FileName="Assets\SCRIPTS\ShakeToApple\appleBoxCollider.js" Line="17" Column="66" />
+      <File FileName="Assets\SCRIPTS\TapToFrisbee\masterScript.js" Line="54" Column="47" />
+      <File FileName="Assets\SCRIPTS\ShakeToApple\appleBoxCollider.js" Line="1" Column="1" />
+      <File FileName="Assets\SCRIPTS\TapToFrisbee\TTF_invisibleScript.js" Line="15" Column="31" />
+      <File FileName="Assets\SCRIPTS\ShakeToApple\classShakeToApple.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
