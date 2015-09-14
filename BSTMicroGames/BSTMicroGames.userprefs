@@ -1,15 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SCRIPTS\TapToFrisbee\classTapToFrisbee.js">
-    <Files>
-      <File FileName="Assets\SCRIPTS\TapToFrisbee\masterTapToFrisbee.js" Line="7" Column="34" />
-      <File FileName="Assets\SCRIPTS\TapToFrisbee\classTapToFrisbee.js" Line="60" Column="3" />
-      <File FileName="Assets\SCRIPTS\ShakeToApple\classShakeToApple.js" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\ShakeToApple\masterShakeToApple.js" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\Common\classMinigame.js" Line="1" Column="1" />
-      <File FileName="Assets\SCRIPTS\ShakeToApple\appleBoxCollider.js" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -34,8 +34,8 @@ public class tapToFrisbee extends baseMinigame{
 	
 	public function Start(){
 		initializeExternalParameters();
-		
 		timeScript.actualTime = time;
+		
 		handAnimator =  TTF_Hand1.GetComponent(Animator);
 		dogAnimator = TTF_Doggy.GetComponent(Animator);
 		TTF_Hand1TFO = TTF_Hand1.transform;

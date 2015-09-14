@@ -44,14 +44,13 @@ public class shakeToApple extends baseMinigame{
 	
 	public function Start(){		
 		initializeExternalParameters();
+		timeScript.actualTime = time;
 		
 		if(difficulty == 1) //easy
 			numApples = 12;
 		
 		initialNumApples = numApples;
 		numCollidedApples = 0;
-		
-		timeScript.actualTime = time;
 		applesArray[0] = apples1;
 		applesArray[1] = apples2;
 		applesArray[2] = apples3;
